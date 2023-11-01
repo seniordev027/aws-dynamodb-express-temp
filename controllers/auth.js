@@ -1,10 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import {
-  dynamoClient,
-  TABLE_MEMBERS,
-  s3Client,
-  S3_BUCKETNAME,
-} from "../database/database.js";
+import { dynamoClient, TABLE_MEMBERS } from "../database/database.js";
 import randomstring from "randomstring";
 import bcrypt from "bcrypt";
 
